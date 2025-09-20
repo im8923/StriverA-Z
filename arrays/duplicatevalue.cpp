@@ -14,6 +14,8 @@ int duplicate(int arr[], int size){
         ans=ans^i;
     }
     return ans;
+    // to remove duplicate number
+    
 }
 int main(){
     int arr[100];
