@@ -12,8 +12,16 @@ bool search(int arr[], int size, int key){
 }
 
 int main(){
-    int arr[10]={2,4,6,8,10,12,14,16,18,20};
-    int size=10;
+    int arr[100];
+    cout<<"Enter the size of array: ";
+    int size;
+    cin>>size;
+    cout<<"Enter the elements of array: ";
+    for(int i=0;i<size;i++){
+        cin>>arr[i];
+    }
+    //int arr[10]={2,4,6,8,10,12,14,16,18,20};
+    //int size=10;
     int key;
     cout<<"Enter the key to be searched: ";
     cin>>key;
@@ -27,3 +35,5 @@ int main(){
     }
     return 0;
 }
+
+    
