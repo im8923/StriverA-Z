@@ -20,16 +20,16 @@ using namespace std;
 }
 int main() {
     int n, target;
-    cout << "Enter the number of elements in the array: ";
+    cout << "number of elements in the array: ";
     cin >> n;
 
     int arr[n];
-    cout << "Enter " << n << " sorted elements:\n";
+    cout << "Enter sorted elements:\n";
     for (int i = 0; i < n; i++) {
         cin >> arr[i];
     }
 
-    cout << "Enter the target element to search: ";
+    cout << "target element: ";
     cin >> target;
     int result = binary(arr, n, target);
     if (result != -1) {
